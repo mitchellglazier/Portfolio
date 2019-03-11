@@ -7,3 +7,9 @@ https://www.youtube.com/watch?v=9AboneIxeM8&index=2&t=0s&list=PL3KAvm6JMiowqFTXj
 https://tleunen.github.io/react-mdl/
 
 https://new-winter-dragon.herokuapp.com/
+
+https://fontawesome.com/v4.7.0/icons/
+
+https://www.bootstrapcdn.com/fontawesome/
+
+https://uigradients.com/

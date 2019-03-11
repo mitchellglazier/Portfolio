@@ -9,7 +9,7 @@ class Landing extends Component {
                     <Cell col={12}>
                     <img
                         src="https://cdn3.iconfinder.com/data/icons/web-and-seo-11-1/65/549-512.png"
-                        alt="Mitchell LinkedIn Picture"
+                        alt="Mitchell Glazier"
                         className="avatar-img"
                     />
 
@@ -23,23 +23,28 @@ class Landing extends Component {
                     <div className="social-links">
 
                         {/* LinkedIn */}
-                        <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                        <a href="https://www.linkedin.com/in/mitchellglazier/" rel="noopener noreferrer" target="_blank">
                         <i className="fa fa-linkedin-square" aria-hidden="true" />
                         </a>
 
                         {/* GitHub */}
-                        <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                        <a href="https://github.com/mitchellglazier" rel="noopener noreferrer" target="_blank">
                         <i className="fa fa-github-square" aria-hidden="true" />
                         </a>
 
                         {/* Medium */}
-                        <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                        <a href="https://medium.com/@mitchellglazier/has-recommended" rel="noopener noreferrer" target="_blank">
                         <i className="fa fa-medium" aria-hidden="true" />
                         </a>
 
                         {/* Facebook */}
-                        <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                        <a href="https://www.facebook.com/mitchell.glazier" rel="noopener noreferrer" target="_blank">
                         <i className="fa fa-facebook" aria-hidden="true" />
+                        </a>
+
+                        {/* CodeWars */}
+                        <a href="https://www.codewars.com/users/mitchellglazier" rel="noopener noreferrer" target="_blank">
+                        <i className="fa fa-code" aria-hidden="true" />
                         </a>
 
                     </div>

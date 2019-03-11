@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div style={{height: '300px', position: 'relative'}}>
     <Layout fixedHeader>
-        <Header className='header-color' title={<span><span style={{ color: '#ddd' }}></span><strong>Mitchell's Portfolio</strong></span>}>
+        <Header className='header-color boxhead' title={<span><span style={{ color: '#ddd' }}></span><strong><Link to="/">Mitchell's Portfolio</Link></strong></span>}>
             <Navigation>
                 <Link to="/about">About Me</Link>
                 <Link to="/projects">Projects</Link>
@@ -17,14 +17,14 @@ class App extends Component {
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title="My Portfolio">
+        {/* <Drawer title="My Portfolio">
             <Navigation>
-            <Link to="/about">About Me</Link>
+                <Link to="/about">About Me</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/contact">Contact</Link>
             </Navigation>
-        </Drawer>
+        </Drawer> */}
           <div className="page-content" />
           <Main/>
         <Content />
